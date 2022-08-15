@@ -12,15 +12,13 @@ const Project = (props: {
 }) => {
   return (
     <div className="flex justify-center pt-10">
-      <Link href={`/rearch/${props.id}`}>
-        <div className="flex w-full max-w-4xl cursor-pointer flex-col gap-2 rounded-xl border-2 py-3 px-5 shadow-md transition hover:shadow-lg">
-          <span className="text-lg">{props.title}</span>
-          <span className="pt-2">{props.content}</span>
-          <span className="pt-3 text-sm text-gray-700">
-            Progress: {props.progress}
-          </span>
-        </div>
-      </Link>
+      <div className="flex w-full max-w-4xl flex-col gap-2 rounded-xl border-2 py-3 px-5 shadow-md transition hover:shadow-lg">
+        <span className="text-lg">{props.title}</span>
+        <span className="pt-2">{props.content}</span>
+        <span className="pt-3 text-sm text-gray-700">
+          Progress: {props.progress}
+        </span>
+      </div>
     </div>
   )
 }
@@ -34,17 +32,17 @@ const Content = () => {
 
       <Project
         id="zero-knowledge-auth"
-        title="Zero-Knowledge Authorisation"
+        title="Zero-Knowledge Verification"
         content="A method for authenticating with a service in a zero trust
             enviroment where the service does not know what user authenticated
-            but can be certain that they are authorised."
+            but can be certain that they are authorised and verified."
         progress="Investigation"
       />
 
       <Project
         id="whitebox"
         title="Secure File Store for Distaster Recovery"
-        content=""
+        content="A method for encrypting and distributing files in a secure and deterministic mannor that can be used to recover data in the event of a disaster."
         progress="Development"
       />
     </div>
@@ -55,7 +53,7 @@ const Research: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>seann.co.uk</title>
+        <title>Research - seann.co.uk</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
