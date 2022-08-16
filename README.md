@@ -1,4 +1,4 @@
-# Sean.co.uk
+# Seann.co.uk
 
 Portfolio website build using NextJS and Tailwind
 
