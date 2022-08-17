@@ -105,8 +105,8 @@ const Projects: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <NavBar />
       <main className="min-h-screen w-full">
-        <NavBar />
         <Content />
       </main>
 
