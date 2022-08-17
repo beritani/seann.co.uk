@@ -57,8 +57,8 @@ const Research: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <NavBar />
       <main className="h-screen w-full">
-        <NavBar />
         <Content />
       </main>
 

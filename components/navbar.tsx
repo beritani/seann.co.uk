@@ -16,9 +16,9 @@ const NavBar = () => {
     <div ref={ref} className="relative flex flex-col shadow-md">
       <div className="container mx-auto flex items-stretch justify-between p-4">
         <Link href="/">
-          <div className="justify-left flex w-1/3 cursor-pointer items-center gap-3 ">
+          <div className="justify-left group flex w-1/3 cursor-pointer items-center gap-3 ">
             <img
-              className="h-12 w-12 transition duration-500 hover:rotate-6"
+              className="h-12 w-12 transition duration-500 group-hover:rotate-6"
               src="/icon.png"
             />
             <span className="text-2xl font-light">seann.co.uk</span>
@@ -33,20 +33,20 @@ const NavBar = () => {
 
         <div className="hidden w-1/3 items-center justify-end gap-3 md:flex">
           <Link href="https://github.com/beritani">
-            <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md">
-              <FaGithub className="w-6x h-6 transition hover:scale-150 hover:text-purple-700" />
+            <div className="group flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md">
+              <FaGithub className="w-6x h-6 transition group-hover:scale-150 group-hover:text-purple-700" />
             </div>
           </Link>
 
           <Link href="https://www.npmjs.com/~beritani">
-            <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md">
-              <FaNpm className="h-6 w-6 text-gray-500 transition hover:scale-150 hover:text-red-600" />
+            <div className="group flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md ">
+              <FaNpm className="h-6 w-6 text-gray-500 transition group-hover:scale-150 group-hover:text-red-600" />
             </div>
           </Link>
 
           <Link href="https://dev.to/beritani">
-            <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md">
-              <FaDev className="h-6 w-6 text-gray-500 transition hover:scale-150 hover:text-black" />
+            <div className="group flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md">
+              <FaDev className="h-6 w-6 text-gray-500 transition group-hover:scale-150 group-hover:text-black" />
             </div>
           </Link>
         </div>
@@ -80,20 +80,20 @@ const NavBar = () => {
           </Link>
           <div className="flex w-full items-center justify-center gap-5 pt-3">
             <Link href="https://github.com/beritani">
-              <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md">
-                <FaGithub className="w-6x h-6 transition hover:scale-150 hover:text-purple-700" />
+              <div className="group flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md">
+                <FaGithub className="w-6x h-6 transition group-hover:scale-150 group-hover:text-purple-700" />
               </div>
             </Link>
 
             <Link href="https://www.npmjs.com/~beritani">
-              <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md">
-                <FaNpm className="h-6 w-6 text-gray-500 transition hover:scale-150 hover:text-red-600" />
+              <div className="group flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md">
+                <FaNpm className="h-6 w-6 text-gray-500 transition group-hover:scale-150 group-hover:text-red-600" />
               </div>
             </Link>
 
             <Link href="https://dev.to/beritani">
-              <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md">
-                <FaDev className="h-6 w-6 text-gray-500 transition hover:scale-150 hover:text-black" />
+              <div className="group flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gray-100 shadow-md">
+                <FaDev className="h-6 w-6 text-gray-500 transition group-hover:scale-150 group-hover:text-black" />
               </div>
             </Link>
           </div>

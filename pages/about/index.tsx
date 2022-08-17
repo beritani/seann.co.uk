@@ -9,9 +9,8 @@ const Content = () => {
     <div className="container mx-auto px-4 pt-10">
       <div className="flex flex-col items-center text-center">
         <span className="text-5xl font-light">About</span>
-        <div className="mt-20 flex h-52 w-52 items-center justify-center drop-shadow-lg filter">
-          <img src="/icon.png" />
-        </div>
+        <img className="-z-50 mt-20 h-52 w-52 drop-shadow-lg" src="/icon.png" />
+
         <span className="pt-10 text-lg">Hello!</span>
         <span className="pt-5">
           I'm Sean, a Full Stack Software Engineer and Data Enthusiast.
