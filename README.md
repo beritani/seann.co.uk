@@ -1,6 +1,6 @@
 # Seann.co.uk
 
-Portfolio website build using NextJS and Tailwind
+Portfolio website built using NextJS and Tailwind
 
 ## Development
 
