@@ -15,8 +15,8 @@ const NavBar = () => {
   return (
     <div ref={ref} className="relative flex flex-col shadow-md">
       <div className="container mx-auto flex items-stretch justify-between p-4">
-        <Link href="/">
-          <div className="justify-left group flex w-1/3 cursor-pointer items-center gap-3 ">
+        <Link href="/" className="justify-left group w-1/3 cursor-pointer">
+          <div className="flex items-center gap-3">
             <img
               className="h-12 w-12 transition duration-500 group-hover:rotate-6"
               src="/icon.png"
@@ -25,7 +25,7 @@ const NavBar = () => {
           </div>
         </Link>
 
-        <div className="hidden w-1/3 items-center justify-center gap-10 md:flex">
+        <div className="hidden w-full items-center justify-center space-x-16 md:flex">
           <Link href="/projects">Projects</Link>
           <Link href="/research">Research</Link>
           <Link href="/about">About</Link>

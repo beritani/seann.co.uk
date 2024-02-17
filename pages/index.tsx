@@ -257,40 +257,60 @@ const Experience = () => {
           <div className="flex w-1/2 border-l-2 border-dashed border-l-gray-300"></div>
         </div>
 
-        <div className="relative flex w-full justify-end">
+        <div className="relative flex h-24 w-full justify-end">
+          <div className="absolute left-1/2 h-6 w-6 -translate-x-1/2 translate-y-1 rounded-full bg-gray-200 ring-2 ring-green-400 ring-offset-2"></div>
+          <div className="flex w-1/2 flex-col border-r-2 border-r-gray-300 pr-10 pb-10 text-right">
+            <span className="text-2xl">Software Engineer</span>
+            <span className="text-lg">The LEGO Group</span>
+            <span className="text-sm text-gray-400">Jul 2023 - Present</span>
+          </div>
+          <div className="flex w-1/2 border-l-2 border-l-gray-300"></div>
+        </div>
+
+        <div className="relative flex h-24 w-full justify-end">
+          <div className="absolute left-1/2 h-6 w-6 translate-y-1 -translate-x-1/2 rounded-full bg-gray-200 ring-2 ring-gray-300 ring-offset-2"></div>
+          <div className="flex w-1/2 border-r-2 border-r-gray-300"></div>
+          <div className="flex w-1/2 flex-col border-l-2 border-l-gray-300 pb-10 pl-10">
+            <span className="text-2xl">Software Engineer</span>
+            <span className="text-lg">Nationwide Building Society</span>
+            <span className="text-sm text-gray-400">Nov 2021 - Jul 2023</span>
+          </div>
+        </div>
+
+        {/* <div className="relative flex w-full justify-end">
           <div className="absolute left-1/2 h-8 w-8 -translate-x-1/2 rounded-full bg-gray-300 ring-2 ring-green-400 ring-offset-2"></div>
           <div className="flex w-1/2 flex-col border-r-2 border-r-gray-300 pr-10 text-right"></div>
           <div className="flex w-1/2 flex-col border-l-2 border-l-gray-300 pl-10 pb-10">
             <span className="text-2xl">Software Engineer</span>
             <span className="text-lg">Nationwide Building Society</span>
-            <span className="text-sm text-gray-400">Nov. 2021 - Present</span>
+            <span className="text-sm text-gray-400">Nov 2021 - Jul 2023</span>
           </div>
-        </div>
+        </div> */}
 
-        <div className="relative flex w-full justify-end">
+        <div className="relative flex h-24 w-full justify-end">
           <div className="absolute left-1/2 h-6 w-6 -translate-x-1/2 translate-y-1 rounded-full bg-gray-200 ring-2 ring-gray-300 ring-offset-2"></div>
           <div className="flex w-1/2 flex-col border-r-2 border-r-gray-300 pr-10 pb-10 text-right">
             <span className="text-2xl">Software Engineer</span>
-            <span className="text-sm text-gray-400">Jan. 2021 - Nov. 2021</span>
+            <span className="text-sm text-gray-400">Jan 2021 - Nov 2021</span>
           </div>
           <div className="flex w-1/2 border-l-2 border-l-gray-300"></div>
         </div>
 
-        <div className="relative flex w-full justify-end">
+        <div className="relative flex h-24 w-full justify-end">
           <div className="absolute left-1/2 h-6 w-6 translate-y-1 -translate-x-1/2 rounded-full bg-gray-200 ring-2 ring-gray-300 ring-offset-2"></div>
           <div className="flex w-1/2 border-r-2 border-r-gray-300"></div>
           <div className="flex w-1/2 flex-col border-l-2 border-l-gray-300 pb-10 pl-10">
             <span className="text-2xl">Data Scientist</span>
-            <span className="text-sm text-gray-400">Sep. 2019 - Jan. 2021</span>
+            <span className="text-sm text-gray-400">Sep 2019 - Jan 2021</span>
           </div>
         </div>
 
-        <div className="relative flex w-full justify-end">
+        <div className="relative flex h-24 w-full justify-end">
           <div className="absolute left-1/2 h-6 w-6 -translate-x-1/2 translate-y-1 rounded-full bg-gray-200 ring-2 ring-gray-400 ring-offset-2"></div>
           <div className="flex w-1/2 flex-col pr-10 pb-10 text-right">
             <span className="text-2xl">BSc Cyber Security</span>
             <span className="text-lg">Apprenticeship</span>
-            <span className="text-sm text-gray-400">Sep. 2017 - Sep. 2019</span>
+            <span className="text-sm text-gray-400">Sep 2017 - Sep 2019</span>
           </div>
           <div className="flex w-1/2 border-l-gray-300"></div>
         </div>
